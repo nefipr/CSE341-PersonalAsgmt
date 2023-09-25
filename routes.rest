@@ -11,11 +11,13 @@ http://localhost:8080/contacts/6511cfb652d6c2c9181f300e
 http://localhost:8080/contacts/6511cfe252d6c2c9181f300f
 
 // PRODUCTION Deploy 
-# ### GET
-# https://cse341-instructor.herokuapp.com/contacts 
-# ### GET 
-# https://cse341-instructor.herokuapp.com/contacts/
-# ### GET 
-# https://cse341-instructor.herokuapp.com/contacts/
-# ### GET 
-# https://cse341-instructor.herokuapp.com/contacts/
+### GET
+https://cse341-personalnefipr.onrender.com/contacts
+### GET 
+https://cse341-personalnefipr.onrender.com/contacts/6511cf3052d6c2c9181f300c
+### GET 
+https://cse341-personalnefipr.onrender.com/contacts/6511cf9152d6c2c9181f300d
+### GET 
+https://cse341-personalnefipr.onrender.com/contacts/6511cfb652d6c2c9181f300e
+### GET 
+https://cse341-personalnefipr.onrender.com/contacts/6511cfe252d6c2c9181f300f
