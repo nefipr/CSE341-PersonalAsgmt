@@ -17,7 +17,7 @@ app
     res.setHeader('Access-Control-Allow-Origin', '*');
     next();
   })
-  .use('/professional', routes);
+  .use('/', routes);
  
 mongodb.initDb((err, mongodb) => {
 if (err) {

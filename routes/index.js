@@ -1,9 +1,6 @@
-const professionalController = require('../controller');
+const express = require('express');
+const router = express.Router();
 
-const router = require('express').Router();
+router.use('/contacts', require('./contacts'))
 
-// GET /feed/posts
-router.get('/', professionalController.getData);
-
-// localhost:8080/professional/
 module.exports = router;

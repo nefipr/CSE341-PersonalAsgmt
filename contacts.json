@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "firstName": "Pame",
+        "lastName": "Perez",
+        "email": "papere12@gmail.com",
+        "favoriteColor": "pink",
+        "birthday": "12/07/1998"
+    },
+    "contact2": {
+        "firstName": "Galia",
+        "lastName": "Perez",
+        "email": "galiperez@gmail.com",
+        "favoriteColor": "purple",
+        "birthday": "12/12/2006"
+    },
+    "contact3": {
+        "firstName": "Ema",
+        "lastName": "Esteves",
+        "email": "emaesteves23@gmail.com",
+        "favoriteColor": "blue",
+        "birthday": "23/06/2001"
+    },
+    "contact4": {
+        "firstName": "Rosy",
+        "lastName": "Reyes",
+        "email": "mombebe02@gmail.com",
+        "favoriteColor": "orange",
+        "birthday": "02/09/1968"
+    }    
+}
