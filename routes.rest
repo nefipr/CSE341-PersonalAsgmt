@@ -38,6 +38,11 @@ content-Type: application/json
 ### DELETE Update Contact 
 DELETE http://localhost:8080/contacts/651b39bfa99b7012c6ffa4ed HTTP/1.1
 
+
+
+
+
+
 // PRODUCTION Deploy 
 ### GET
 https://cse341-personalnefipr.onrender.com/contacts
@@ -76,3 +81,12 @@ content-Type: application/json
 
 ### DELETE Update Contact 
 DELETE https://cse341-personalnefipr.onrender.com/contacts/651b39bfa99b7012c6ffa4ed HTTP/1.1
+
+
+# {
+#     "firstName": "Israel",
+#     "lastName": "Perez",
+#     "email": "israpr@gmail.com",
+#     "favoriteColor": "electric blue",
+#     "birthday": "24/08/1999"
+# }

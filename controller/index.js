@@ -38,7 +38,7 @@ const createNewContact = async(req, res) => {
   .insertOne(newContact);
 
   if (result.acknowledged){
-    res.status(201).json(response);
+    res.status(201).json(result);
   } else {
     res.status(500).json(result.error);
   }
@@ -63,7 +63,7 @@ const updateContact = async (req, res) => {
   if (result.modifiedCount > 0){
     res.status(204).send();
   } else {
-    res.status(500).json(result.error);
+    res.status(500).json(result.error || 'Some error occurred while updating the contact.');
   }
 };
 
@@ -73,12 +73,12 @@ const deleteContact = async (req, res) => {
   .getDb()
   .db()
   .collection('contacts')
-  .remove({ _id: userId });
-
+  .remove({ _id: userId }, true);
+  console.log(response);
   if (result.deletedCount > 0){
     res.status(200).send();
   } else {
-    res.status(500).json(result.error);
+    res.status(500).json(result.error || 'Some error occurred while deleting the contact.');
   }
 
 };
