@@ -24,15 +24,15 @@ content-Type: application/json
 }
 
 ### PUT Update Contact 
-PUT http://localhost:8080/contacts/6511cf3052d6c2c9181f300c HTTP/1.1
+PUT http://localhost:8080/contacts/651b39bfa99b7012c6ffa4ed HTTP/1.1
 content-Type: application/json
 
 {
-    "firstName": "Pamela",
+    "firstName": "Pame",
     "lastName": "Perez",
-    "email": "pamepr12@gmail.com",
-    "favoriteColor": "ligth pink",
-    "birthday": "12/07/1997"
+    "email": "papere23@gmail.com",
+    "favoriteColor": "pink",
+    "birthday": "12/03/1998"
 }
 
 ### DELETE Update Contact 
@@ -72,10 +72,10 @@ PUT https://cse341-personalnefipr.onrender.com/contacts/651b39bfa99b7012c6ffa4ed
 content-Type: application/json
 
 {
-    "firstName": "Israel",
+    "firstName": "Nefi",
     "lastName": "Perez",
-    "email": "israpr@gmail.com",
-    "favoriteColor": "electric blue",
+    "email": "nefipr@gmail.com",
+    "favoriteColor": "purple",
     "birthday": "24/08/1999"
 }
 
