@@ -6,7 +6,7 @@ const doc = {
     description: 'Personal Assignment - Contactas API',
   },
   host: 'cse341-personalnefipr.onrender.com',
-  schemes: ['http'],
+  schemes: ['https'],
 };
 
 const outputFile = './swagger.json';
