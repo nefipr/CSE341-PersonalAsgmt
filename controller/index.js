@@ -3,14 +3,19 @@ const mongodb = require('../db/connect');
 const ObjectId = require('mongodb').ObjectId;
 
 const getAll = async (req, res, next) => {
+  try{
   const result = await mongodb.getDb().db().collection('contacts').find();
   result.toArray().then((lists) => {
     res.setHeader('Content-Type', 'application/json');
     res.status(200).json(lists);
   });
+  } catch (error) {
+    res.status(500).json({message: error.message});
+  }
 };
 
 const getSingle = async (req, res, next) => {
+  try{
   const userId = new ObjectId(req.params.id);
   const result = await mongodb
     .getDb()
@@ -21,9 +26,13 @@ const getSingle = async (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
     res.status(200).json(lists[0]);
   });
+  } catch (error) {
+    res.status(500).json(error);
+  }
 };
 
 const createNewContact = async(req, res) => {
+  try{
   const newContact = {
     firstName: req.body.firstName,
     lastName: req.body.lastName,
@@ -42,10 +51,13 @@ const createNewContact = async(req, res) => {
   } else {
     res.status(500).json(result.error);
   }
-
+  } catch (error) {
+    res.status(500).json(error);
+  }
 };
 
 const updateContact = async (req, res) => {
+  try{
   const userId = new ObjectId(req.params.id);
   const contact = {
     firstName: req.body.firstName,
@@ -65,9 +77,13 @@ const updateContact = async (req, res) => {
   } else {
     res.status(500).json(result.error || 'Some error occurred while updating the contact.');
   }
+  } catch (error) {
+    res.status(500).json(error);
+  }
 };
 
 const deleteContact = async (req, res) => {
+  try {
   const userId = new ObjectId(req.params.id);
   const result = await mongodb
   .getDb()
@@ -80,7 +96,9 @@ const deleteContact = async (req, res) => {
   } else {
     res.status(500).json(result.error || 'Some error occurred while deleting the contact.');
   }
-
+  } catch (error) {
+    res.status(500).json(error);
+  }
 };
 
 

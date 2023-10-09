@@ -16,11 +16,11 @@ POST http://localhost:8080/contacts HTTP/1.1
 content-Type: application/json
 
 {
-    "firstName": "Nefi",
-    "lastName": "Perez",
-    "email": "nefipr@gmail.com",
-    "favoriteColor": "purple",
-    "birthday": "24/08/1999"
+    "firstName": "Israel",
+    "lastName": "Reyes",
+    "email": "israrey@gmail.com",
+    "favoriteColor": "orange",
+    "birthday": "25/08/1999"
 }
 
 ### PUT Update Contact 
@@ -60,27 +60,27 @@ POST https://cse341-personalnefipr.onrender.com/contacts HTTP/1.1
 content-Type: application/json
 
 {
-    "firstName": "Nefi",
-    "lastName": "Perez",
-    "email": "nefipr@gmail.com",
-    "favoriteColor": "purple",
-    "birthday": "24/08/1999"
+    "firstName": "Cristiano",
+    "lastName": "Ronaldo",
+    "email": "cr7@gmail.com",
+    "favoriteColor": "Red",
+    "birthday": "12/04/1980"
 }
 
 ### PUT Update Contact 
-PUT https://cse341-personalnefipr.onrender.com/contacts/651b47e65d8c9860724e4fda HTTP/1.1
+PUT https://cse341-personalnefipr.onrender.com/contacts/652462aee9f65cf67bf1563c HTTP/1.1
 content-Type: application/json
 
 {
-    "firstName": "Israel",
-    "lastName": "Perez",
-    "email": "israpr@gmail.com",
-    "favoriteColor": "electric blue",
-    "birthday": "24/08/1999"
+    "firstName": "Cristiano",
+    "lastName": "Magic",
+    "email": "cr7@gmail.com",
+    "favoriteColor": "Red",
+    "birthday": "12/04/1980"
 }
 
 ### DELETE Update Contact 
-DELETE https://cse341-personalnefipr.onrender.com/contacts/651b47e65d8c9860724e4fda HTTP/1.1
+DELETE https://cse341-personalnefipr.onrender.com/contacts/652462aee9f65cf67bf1563c HTTP/1.1
 
 
 # {
