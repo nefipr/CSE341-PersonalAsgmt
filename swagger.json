@@ -2,16 +2,16 @@
   "swagger": "2.0",
   "info": {
     "title": "My API",
-    "description": "Team Assignment - Temple API",
+    "description": "Personal Assignment - Contactas API",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "cse341-personalnefipr.onrender.com",
   "basePath": "/",
   "schemes": [
     "http"
   ],
   "paths": {
-    "/api-docs/api-docs": {
+    "/api-docs": {
       "get": {
         "description": "",
         "responses": {

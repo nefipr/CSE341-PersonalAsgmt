@@ -5,7 +5,7 @@ const doc = {
     title: 'My API',
     description: 'Personal Assignment - Contactas API',
   },
-  host: 'localhost:8080',
+  host: 'cse341-personalnefipr.onrender.com',
   schemes: ['http'],
 };
 
