@@ -11,7 +11,7 @@
     "https"
   ],
   "paths": {
-    "/api-docs": {
+    "*/*/api-docs": {
       "get": {
         "description": "",
         "responses": {
@@ -30,6 +30,9 @@
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
           }
         }
       },
@@ -88,6 +91,9 @@
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
           }
         }
       },
