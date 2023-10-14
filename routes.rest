@@ -16,27 +16,27 @@ POST http://localhost:8080/contacts HTTP/1.1
 content-Type: application/json
 
 {
-    "firstName": "Israel",
-    "lastName": "Reyes",
-    "email": "israrey@gmail.com",
-    "favoriteColor": "orange",
-    "birthday": "25/08/1999"
+    "firstName": "Neymar",
+    "lastName": "Galo",
+    "email": "neygalo@gmail.com",
+    "favoriteColor": "Yellow",
+    "birthday": "09/12/1970"
 }
 
 ### PUT Update Contact 
-PUT http://localhost:8080/contacts/651b47735233b2befa426320 HTTP/1.1
+PUT http://localhost:8080/contacts/652468cf37a5a876483f45fb HTTP/1.1
 content-Type: application/json
 
 {
-    "firstName": "Israel",
-    "lastName": "Perez",
-    "email": "israpr@gmail.com",
-    "favoriteColor": "electric blue",
-    "birthday": "24/08/1999"
+    "firstName": "Neymar",
+    "lastName": "Pelo",
+    "email": "neygalo@gmail.com",
+    "favoriteColor": "Yellow",
+    "birthday": "09/12/1970"
 }
 
 ### DELETE Update Contact 
-DELETE http://localhost:8080/contacts/651b47735233b2befa426320 HTTP/1.1
+DELETE http://localhost:8080/contacts/652468cf37a5a876483f45fb HTTP/1.1
 
 
 
@@ -60,27 +60,27 @@ POST https://cse341-personalnefipr.onrender.com/contacts HTTP/1.1
 content-Type: application/json
 
 {
-    "firstName": "Cristiano",
+    "firstName": "Messi",
     "lastName": "Ronaldo",
-    "email": "cr7@gmail.com",
-    "favoriteColor": "Red",
-    "birthday": "12/04/1980"
+    "email": "messigoat@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "24/09/1986"
 }
 
 ### PUT Update Contact 
-PUT https://cse341-personalnefipr.onrender.com/contacts/652462aee9f65cf67bf1563c HTTP/1.1
+PUT https://cse341-personalnefipr.onrender.com/contacts/652469e22300dbc675bc18ba HTTP/1.1
 content-Type: application/json
 
 {
-    "firstName": "Cristiano",
-    "lastName": "Magic",
-    "email": "cr7@gmail.com",
-    "favoriteColor": "Red",
-    "birthday": "12/04/1980"
+    "firstName": "Messi",
+    "lastName": "Pele",
+    "email": "messigoat@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "24/09/1986"
 }
 
 ### DELETE Update Contact 
-DELETE https://cse341-personalnefipr.onrender.com/contacts/652462aee9f65cf67bf1563c HTTP/1.1
+DELETE https://cse341-personalnefipr.onrender.com/contacts/652469e22300dbc675bc18ba HTTP/1.1
 
 
 # {
